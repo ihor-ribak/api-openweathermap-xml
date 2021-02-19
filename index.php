@@ -8,7 +8,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
     $city = (empty($_POST['city']))? "Chernivtsi" : $_POST['city'];
     $units = 'metric';
     $mode ='xml';
-    $id = '3084c69d6e7d7ad273ef019bfbd75fa2';
+    $id = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
     $request = 'http://api.openweathermap.org/data/2.5/weather?'.
         'q='.$city.'&units='.$units.'&mode='.$mode.'&APPID='.$id;
 
